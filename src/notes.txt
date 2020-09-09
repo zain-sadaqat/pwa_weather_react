@@ -1,0 +1,50 @@
+1. npx create-react-app app_name
+
+2. set up react folders/files
+
+3. npm start --> run app 
+
+4. npm install --save axios (to make a get request to the API for weather Data.)
+
+5. create a folder (api) and inside api folder create a file (fetchWeather)
+
+6. export the fetchWeather component to use in App.js 
+
+7. after completing the src folder files now jump to public folder
+
+8. inside public, delete all files except index.html
+
+9. inside index.html underneath the div id="root" write a script 
+
+10. check if serviceWorker is valid/available if yes then add a eventlistener
+
+11. serviceWorker is just a js file which gives a promise => then or catch
+
+12. open inspects in browser and go to applications section
+
+13. inside application --> Service Workers --> enable (update on reload)
+
+14. clear all data from clear storage
+
+15. Service Worker successfully registered
+
+16. now go serviceworker.js file in project
+
+17. CACHE_NAME => it's browsers cache memory once we search for something we don't need to search for the whole process once it comes in cache memory.
+
+18. next write urlsToCache => offline.html shows what will our app look like in offline version
+
+19. Now we need to type three different events 
+
+20. First one is installation
+
+21 after completing the serviceWorker.js, go offline.html
+
+22. after that create a new manifest.json
+
+23. setup index.html
+
+24. npm run build
+
+25. this generates a build folder which we can drag and drop on netlify a fully production ready
+app that bundles all the files from react that can be upload on netlify
